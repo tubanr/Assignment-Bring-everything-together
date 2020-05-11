@@ -1,0 +1,152 @@
+/*body{
+    //background: rgb(214,235,216);
+   // background: linear-gradient(90deg, rgba(214,235,216,1) 0%, rgba(137,215,176,1) 50%);
+}*/
+
+ul {
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    overflow: hidden;
+
+    background-color: #0e9e9b;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 14px 16px;
+
+    text-decoration: none;
+}
+
+li.active a{
+    background: #3e605f;
+    color:rgb(180, 176, 176);
+    
+
+
+}
+
+h1{
+    text-align: center;
+}
+section1{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+ }
+ .container {
+    margin: auto;
+    width: 100%;
+    overflow: auto;
+    padding: 3rem 2rem;
+  }
+  
+  #my-form {
+    padding: 2rem;
+    background:  #568d8b;
+  }
+  
+  #my-form label {
+    display: block;
+  }
+  
+  #my-form input[type='text'] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #sub-btn {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    background: rgba(9, 59, 78, 0.835);
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+  
+  .btn:hover {
+    background: #444;
+  }
+  
+  .bg-dark {
+    background: #333;
+    color: #fff;
+  }
+  
+  .error {
+    background: rgb(250, 66, 66);
+    color:bisque;
+    padding: 3px;
+    margin: 3px;
+  }
+  .h1-form{
+      text-align: center;
+      color: white;
+  }
+  .h2-info{
+      text-align: center;
+      
+  }
+  .h2-d-info{
+    text-align: center;
+    margin-top: 20px;
+    background-color: transparent;
+    color:  rgba(9, 59, 78, 0.835);
+    border: 0.5px;
+    padding: 10px;
+   
+  }
+  
+  table {
+    width:100%;
+
+  }
+  #table,th{
+    background-color:  rgba(9, 59, 78, 0.835);
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+    border: 1px solid white;
+    color:white;
+}
+
+tbody td{
+  font-family: sans-serif;
+  border-bottom:1px solid #ccc;
+  background-color: #ccc;
+
+ }
+ 
+    .btn-header{
+      position: relative;
+      
+}
+
+
+
+
+
+
+
+
+
+
+
